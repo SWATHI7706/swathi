@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Medicine Tracker</h1>
+    </header>
+    
+    <main>
+        <!-- Login Section -->
+        <section id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <!-- Add Medication Section -->
+        <section id="add-medicine">
+            <h2>Add Medication</h2>
+            <form id="medicine-form">
+                <input type="text" id="medicine-name" placeholder="Medicine Name" required>
+                <input type="text" id="dosage" placeholder="Dosage (e.g., 2 pills)" required>
+                <input type="text" id="frequency" placeholder="Frequency (e.g., twice a day)" required>
+                <input type="time" id="medication-time" required>
+                <input type="number" id="pill-count" placeholder="Total Pills" required>
+                <input type="number" id="refill-threshold" placeholder="Refill Reminder At" required>
+                <button type="submit">Add Medicine</button>
+            </form>
+        </section>
+        
+        <!-- Medication List Section -->
+        <section id="medication-list">
+            <h2>Today's Medications</h2>
+            <ul id="medications"></ul>
+        </section>
+        
+        <!-- History Log Section -->
+        <section id="history-log">
+            <h2>History</h2>
+            <ul id="history"></ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Medicine Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Medication List Section -->
+<section id="medication-list">
+    <h2>Today's Medications</h2>
+    <ul id="medications"></ul>
+</section>

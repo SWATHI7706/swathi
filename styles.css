@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Update the body background with a gradient */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient from purple to blue */
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Header and footer styles */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main section background color and styling */
+main {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 2rem;
+    background-color: #fff; /* White background for main content */
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section style */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Form and button styles */
+input[type="text"], input[type="number"], input[type="time"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2575fc;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a11cb;
+}
+
+/* List item for medications */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #f44336;  /* Red button for delete */
+    color: white;
+}
+
+li button:hover {
+    background-color: #d32f2f;  /* Darker red for delete hover */
+}
+
